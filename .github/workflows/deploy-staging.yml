@@ -7,9 +7,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    
-    env:
-  DOCKER_IMAGE_NAME: mystic001-azure-ttt
+    env:  DOCKER_IMAGE_NAME: mystic001-azure-ttt
   IMAGE_REGISTRY_URL: docker.pkg.github.com
   #################################################
   ### USER PROVIDED VALUES ARE REQUIRED BELOW   ###
@@ -18,3 +16,4 @@ jobs:
   ### REPLACE USERNAME WITH GH USERNAME         ###
   AZURE_WEBAPP_NAME: mystic001-ttt-app
   #################################################
+ 
